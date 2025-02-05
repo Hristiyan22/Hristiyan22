@@ -1,0 +1,29 @@
+name: Auto Update README
+
+on:
+  schedule:
+    - cron: "0 * * * *"  # Runs every hour
+  workflow_dispatch:  # Allows manual execution
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Fetch GitHub Stats
+        run: |
+          STATS=$(curl -s "https://github-readme-stats.vercel.app/api?username=Hristiyan22&show_icons=true&theme=dark")
+          LANGS=$(curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=Hristiyan22&layout=compact&theme=dark")
+          sed -i '/<!--START_SECTION:github-stats-->/, /<!--END_SECTION:github-stats-->/c\<!--START_SECTION:github-stats-->\n'"![$STATS](https://github-readme-stats.vercel.app/api?username=Hristiyan22&show_icons=true&theme=dark)"'\n'"![$LANGS](https://github-readme-stats.vercel.app/api/top-langs/?username=Hristiyan22&layout=compact&theme=dark)"'\n<!--END_SECTION:github-stats-->' README.md
+
+      - name: Commit and Push Changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: 'github-actions[bot]'
+          author_email: 'github-actions[bot]@users.noreply.github.com'
+          message: 'Auto-update README with latest stats'
+          add: 'README.md'
+          push: true
