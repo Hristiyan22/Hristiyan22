@@ -4,10 +4,10 @@
 
 <div>
   <img align="right" alt="Coding" width="50%"  
-       src="https://cdn.dribbble.com/users/1277312/screenshots/14733298/media/39b1045e593737587dd60e42c8422d1f.gif">
+       src="https://github.com/Hristiyan22/Hristiyan22/blob/main/gif123.gif">
  </div>
  
-<h3> About me:</h3>
+<h3> :dizzy: About me:</h3>
 
 - 👨‍💻 Passionate about cybersecurity and software development.
 - 🔍 Exploring network security, ethical hacking, and system administration.
@@ -16,10 +16,6 @@
 
 <br>
 <br>
-<br>
-<br>
-<br>
-
 
 <p align="center">
   <img src="https://img.shields.io/badge/-PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -41,7 +37,6 @@
 </p>
 
 <br>
-<br>
 
 <p align="center">
   <picture>
@@ -51,5 +46,5 @@
   </picture>
 </p>
 
-<br></br>
+
 ### <p align="center"> 🚀 Let's connect and collaborate! 🚀 </p>
