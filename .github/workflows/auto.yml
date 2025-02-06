@@ -1,3 +1,5 @@
+name: Auto Update README
+
 on:
   schedule:
     - cron: "0 * * * *"  # Runs every hour
@@ -9,13 +11,23 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Fetch GitHub Stats
         run: |
-          STATS=$(curl -s "https://github-readme-stats.vercel.app/api?username=Hristiyan22&show_icons=true&theme=dark")
-          LANGS=$(curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=Hristiyan22&layout=compact&theme=dark")
-          sed -i '/<!--START_SECTION:github-stats-->/, /<!--END_SECTION:github-stats-->/c\<!--START_SECTION:github-stats-->\n'"![$STATS](https://github-readme-stats.vercel.app/api?username=Hristiyan22&show_icons=true&theme=dark)"'\n'"![$LANGS](https://github-readme-stats.vercel.app/api/top-langs/?username=Hristiyan22&layout=compact&theme=dark)"'\n<!--END_SECTION:github-stats-->' README.md
+          STATS_URL="https://github-readme-stats.vercel.app/api?username=Hristiyan22&show_icons=true&theme=dark"
+          LANGS_URL="https://github-readme-stats.vercel.app/api/top-langs/?username=Hristiyan22&layout=compact&theme=dark"
+
+          echo "Fetching GitHub Stats..."
+          curl -s $STATS_URL > stats.txt
+          curl -s $LANGS_URL > langs.txt
+          
+          if [[ ! -s stats.txt || ! -s langs.txt ]]; then
+            echo "Error: Failed to fetch GitHub stats."
+            exit 1
+          fi
+
+          sed -i '/<!--START_SECTION:github-stats-->/, /<!--END_SECTION:github-stats-->/c\<!--START_SECTION:github-stats-->\n![$STATS_URL]('$STATS_URL')\n![$LANGS_URL]('$LANGS_URL')\n<!--END_SECTION:github-stats-->' README.md
 
       - name: Commit and Push Changes
         uses: EndBug/add-and-commit@v7
