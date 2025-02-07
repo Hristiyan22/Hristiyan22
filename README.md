@@ -27,9 +27,11 @@
 <br>
 
 ### <p align="center"> 🔥 My Stats: </p>
+
 <br>
+
 <p align="center">
-  <img width="48%" src="https://github.com/Hristiyan22/Hristiyan22/blob/main/images/streak.svg" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=Hristiyan22&theme=dark" />
 </p>
 
 <p align="center">
