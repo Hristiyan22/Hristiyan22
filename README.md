@@ -29,7 +29,7 @@
 ### <p align="center"> 🔥 My Stats: </p>
 <br>
 <p align="center">
-  <img width="48%" src="https://github.com/Hristiyan22/Hristiyan22/blob/main/images/streak.png" />
+  <img width="48%" src="https://github.com/Hristiyan22/Hristiyan22/blob/main/images/streak.svg" />
 </p>
 
 <p align="center">
@@ -40,9 +40,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hristiyan22/Hristiyan22/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hristiyan22/Hristiyan22/output/github-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/Hristiyan22/Hristiyan22/output/github-snake.svg" />
   </picture>
 </p>
 
