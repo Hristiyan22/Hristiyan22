@@ -48,6 +48,3 @@
     <img alt="github-snake" src="https://raw.githubusercontent.com/Hristiyan22/Hristiyan22/output/github-snake.svg" />
   </picture>
 </p>
-
-
-### <p align="center"> 🚀 Let's connect and collaborate! 🚀 </p>
