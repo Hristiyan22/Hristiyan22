@@ -30,7 +30,7 @@
     <th align="left">Skills</th>
   </tr>
   <tr>
-    <td align="left"><b>Front End</b></td>
+    <td align="left"><b>Frontend</b></td>
     <td align="left">
       <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" title="HTML"><img src="https://skillicons.dev/icons?i=html" alt="HTML" width="40" /></a> 
       <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" title="CSS"><img src="https://skillicons.dev/icons?i=css" alt="CSS" width="40" /></a> 
