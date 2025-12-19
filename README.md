@@ -55,8 +55,7 @@
     <td align="left">
       <a href="https://code.visualstudio.com/" target="_blank" title="VS Code"><img src="https://skillicons.dev/icons?i=vscode" alt="VS Code" width="40" /></a> 
       <a href="https://visualstudio.microsoft.com/" target="_blank" title="Visual Studio"><img src="https://skillicons.dev/icons?i=visualstudio" alt="Visual Studio" width="40" /></a> 
-      <a href="https://www.jetbrains.com/pycharm/" target="_blank" title="PyCharm"><img src="https://skillicons.dev/icons?i=pycharm" alt="PyCharm" width="40" /></a> 
-      <a href="https://www.jetbrains.com/idea/" target="_blank" title="IntelliJ"><img src="https://skillicons.dev/icons?i=idea" alt="IntelliJ IDEA" width="40" /></a> 
+      <a href="https://www.jetbrains.com/pycharm/" target="_blank" title="PyCharm"><img src="https://skillicons.dev/icons?i=pycharm" alt="PyCharm" width="40" /></a>
       <a href="https://github.com/" target="_blank" title="GitHub"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" width="40" /></a>
     </td>
   </tr>
