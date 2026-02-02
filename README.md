@@ -41,7 +41,6 @@
     <td align="left"><b>Backend</b></td>
     <td align="left">
       <a href="https://www.python.org" target="_blank" title="Python"><img src="https://skillicons.dev/icons?i=py" alt="Python" width="40" /></a> 
-      <a href="https://www.java.com" target="_blank" title="Java"><img src="https://skillicons.dev/icons?i=java" alt="Java" width="40" /></a>
       <a href="https://www.nodejs.org" target="_blank" title="NodeJS"><img src="https://skillicons.dev/icons?i=nodejs" alt="NodeJS" width="40" /></a>
     </td>
   </tr>
