@@ -48,6 +48,7 @@
     <td align="left"><b>Database</b></td>
     <td align="left">
       <a href="https://www.mysql.com/" target="_blank" title="SQL (MySQL)"><img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" width="40" /></a>
+      <a href="https://www.postgresql.org" target="_blank" title="Postgres"><img src="https://skillicons.dev/icons?i=postgres" alt="Postgres" width="40" /></a>
     </td>
   </tr>
   <tr>
